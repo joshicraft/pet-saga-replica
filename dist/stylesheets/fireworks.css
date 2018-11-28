@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+
+
+}
+
+canvas{
+
+
+
+}
+.button{
+      font-family: Arial, Helvetica, sans-serif;
+    font-family: "Mouse Memoirs";
+   color: #005786;
+    letter-spacing: 2px;
+padding: 12px 0px;
+background: -moz-linear-gradient(
+ top,
+ #f6fdff 0%,
+ #50dfff);
+background: -webkit-gradient( linear, left top, left bottom, from(#CBF4FF), to(#1DB9DB));
+-moz-border-radius: 17px;
+-webkit-border-radius: 17px;
+border-radius: 17px;
+border: 0px solid #000000;
+-moz-box-shadow: 0px  3px 10px rgba(000,000,000,0.5),
+ inset 0px -1px 9px rgba(255,255,255,1);
+-webkit-box-shadow: 0px 2px 3px rgba(000,000,000,0.5),
+ inset 0px -1px 9px rgba(255,255,255,1);
+box-shadow: 0px  3px 10px rgba(000,000,000,0.5), inset 0px -1px 9px rgba(255,255,255,.5);
+text-shadow: 0px -1px 0px rgba(000,000,000,0.1), 0px 1px 0px rgba(255,255,255,0.3);
+position: relative;
+    text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.button:hover{
+     -moz-box-shadow: 0px 1px 2px rgba(000,000,000,0.5),
+ inset 0px -1px 9px rgba(255,255,255,1);
+-webkit-box-shadow: 0px 1px 2px rgba(000,000,000,0.5),
+ inset 0px -1px 9px rgba(255,255,255,1);
+box-shadow: 0px 1px 2px rgba(000,000,000,0.5), inset 0px -1px 9px rgba(255,255,255,.5);
+text-shadow: 0px -1px 0px rgba(000,000,000,0.1), 0px 1px 0px rgba(255,255,255,0.3);
+    background: -moz-linear-gradient(
+ top,
+ #f6fdff 0%,
+ #48CCE9);
+background: -webkit-gradient( linear, left top, left bottom, from(#CBF4FF), to(#48CCE9));
+}
+#fb-img{
+    float: left; margin-left: 0.2em; margin-top: 0.1em;width:14px; height:15px;
+}
+#connect{
+    text-shadow: 0px 2px 1px rgba(000,000,000,0.5), 0px 1px 0px rgba(255,255,255,0.9);
+    display: none;
+    font-weight: 100;
+    color:white;
+    position: absolute;
+    float: left;
+    bottom: 151px;
+    z-index: 2;
+    right: 182px;
+    cursor:pointer;
+    width: 114px;
+    border-radius: 9px;
+}
+#connect:hover{
+    bottom:150px;
+}
+#retry{
+         font-family: "Londrina Solid";
+    position: absolute;
+    font-size: 22px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    display: none;
+    width: 138px;
+    z-index: 2;
+    float: left;
+    top: 522px;
+    left: 321px;
+    padding: 11px 0px;
+    cursor: pointer;
+}
+#retry:hover{
+    top:523px;
+
+
+}
+#close{
+    background-image: url('../images/button-sprite.png');
+    position: relative;
+    float: right;
+    right: 194px;
+    top: 145px;
+    width: 42px;
+    height: 41px;
+
+    z-index: 2;
+    cursor: pointer;
+    display: none;
+
+}
+#close:hover{
+  background-position: 0 -42px;
+}
+#play{
+    display: none;
+
+    font-size: 34px;
+    font-weight: 900;
+    padding: 14px 0;
+    float: left;
+    top: 440px;
+    z-index: 2;
+    width: 214px;
+    left: 36.1%;
+    -webkit-transform:scale(.8, 1.0);
+    -moz-transform:scale(.9, 1.0);
+    -ms-transform:scale(.9, 1.0);
+    -o-transform:scale(.9, 1.0);
+    transform:scale(.9,1.0);
+}
+
+#play:hover{
+
+    top: 441px;
+
+    cursor: pointer;
+    color: #0064b3;
+}
+#canvasContainer{
+  text-align: center;
+ background-image: url('../images/bg-border.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+     margin-left:auto;
+        margin-right:auto;
+    width: 780px;
+    height: 940px;
+
+    position: relative;
+
+}
+#canvasFireworks{
+    position: absolute;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+top: 37px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    z-index: -1;
+
+
+}
+img{
+    position:relative;
+    width:700px;
+    height: 900px;
+}
+#canvasStars{
+        position: absolute;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+
+
+    text-align: center;
+
+}
+#canvasFireworks{
+    z-index: 1;
+}
+#starsCanvas{
+z-index: 1;
+padding-top:2.4em;
+     position: absolute;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+}
+#canvasSparkles{
+
+        position: absolute;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+
+}
+.positionCanvas{
+         position: absolute;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+    background: rgba(255,255,255,0);
+}
+.centreCanvas{
+
+
+
+}
+
+#logoCanvas{
+    position: relative;
+}
